@@ -13,6 +13,8 @@
     "core-js": "^3.20.3",
     "intersection-observer": "^0.12.0",
     "primeflex": "^2.0.0",
+    "primeicons": "^5.0.0",
+    "primevue": "^2.4.2",
     "regenerator-runtime": "^0.13.9",
     "vue": "^2.6.11",
     "vue-router": "^3.2.0",
