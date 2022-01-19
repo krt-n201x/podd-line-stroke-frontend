@@ -1,7 +1,7 @@
 <template>
   <div>
   <b-navbar class="navbar navbar-light" style="background-color: #7746C3; color: white; padding-left: 24px; padding-right: 24px;">
-    <b-navbar-brand href="#"><img src="..\asset\back.png" width="30px"></b-navbar-brand>
+    <b-navbar-brand href="#"><img src="..\src\assets\back.png" width="30px"></b-navbar-brand>
     <b-collapse class="d-flex justify-content-center" id="nav-text-collapse" is-nav>
       <b-navbar-nav>
         <b-navbar-nav>
@@ -10,12 +10,13 @@
       </b-navbar-nav>
     </b-collapse>
   </b-navbar>
+  
+  <router-view />
   </div>
+  
 </template>
 
 <script>
-
-
 export default {
   
 }
