@@ -8,7 +8,7 @@
   </div> -->
 
   <div>
-    <b-navbar 
+    <b-navbar
       sticky="true"
       class="navbar navbar-light"
       style="
@@ -30,30 +30,22 @@
       >
         <b-navbar-nav>
           <b-navbar-nav>
-            <router-link to="/">
-              <b-nav-text
-                style="
-                  color: #ffffff;
-                  width: 100%;
-                  font-size: 24px;
-                  font-family: 'Prompt', sans-serif;
-                "
-                >แก้ไขข้อมูลสำหรับผู้ดูแล</b-nav-text
-              >
-            </router-link>
+            <b-nav-text
+              style="
+                color: #ffffff;
+                width: 100%;
+                font-size: 24px;
+                font-family: 'Prompt', sans-serif;
+              "
+              >ข้อมูลสำหรับผู้ดูแล</b-nav-text
+            >
           </b-navbar-nav>
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
-        <router-link to="/inspectorform">
-          Form
-        </router-link>
-       <router-link to="/inspectorview">
-          view
-        </router-link>
-        <router-link to="/inspectoredit">
-          Edit
-        </router-link>
+    <router-link to="/inspectorform"> Form </router-link>
+    <router-link to="/inspectorview"> view </router-link>
+    <router-link to="/inspectoredit"> Edit </router-link>
     <router-view />
   </div>
 </template>
