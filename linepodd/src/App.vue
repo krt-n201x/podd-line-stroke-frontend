@@ -45,7 +45,15 @@
         </b-navbar-nav>
       </b-collapse>
     </b-navbar>
-
+        <router-link to="/inspectorform">
+          Form
+        </router-link>
+       <router-link to="/inspectorview">
+          view
+        </router-link>
+        <router-link to="/inspectoredit">
+          Edit
+        </router-link>
     <router-view />
   </div>
 </template>
